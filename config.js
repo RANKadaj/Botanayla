@@ -3,8 +3,8 @@ let chalk = require('chalk')
 
 global.Owner = {
     // use the phone number with the country code, for example Indonesia '62' America '1' etc
-    '628818770766': { // 628818770766
-        name: 'Zevano',
+    '6281269655006': { // 6281269655005
+        name: 'Dion',
         isReport: true, // if true this number will send if user use command /report or /join
         isCreator: true, // if true this number will send if user use command /owner or /creator
         isDev: true
@@ -20,7 +20,7 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user
 global.DeveloperMode = 'false' // true or false
 global.linkGC = ['https://chat.whatsapp.com/JgFOfu182li7kG6dlKcwzD']
 global.packname = 'NayLa-B0TZ'
-global.author = 'Zevano'
+global.author = 'Nayla-BOTZ'
 global.multiplier = 36 // The higher, The harder levelup
 global.sessionName = 'nayla' // The Session name behind the .json example is nayla.json
 global.mesreport = 50
